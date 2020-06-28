@@ -11,3 +11,21 @@ At the moment, *rssitter* i **serverless** but I'm working on a *node.js* implem
 3. Enter your favourite rss feeds to the `rss_list` variable.
 4. Open `index.html` with your browser.
 5. Enjoy
+
+
+## FUTURE: NOT YET IMPLEMENTED
+I will be using Flask for the server. It is lightweight and I'm able to use Python, a pl wich I am much more familiarized.
+
+### Self hosting
+1. Install `python3`, `pip` and `virtualenv`.
+2. Prepare a virtual environment:
+    - `virtualenv envName`
+    - `source envName/bin/activate`
+  > Now you are inside of the virtual environment for python.
+3. [env] Install the dependencies:
+    - `pip3 install flask flask-sqlalchemy`
+4. [env] Setup the SqlLite database:
+    - `python3` (Enter to the python command promt.)
+    - \>>`from app import db` (You will see a warning, don't worry)
+    - \>>`db.create_all()`
+    - \>>`exit()`
