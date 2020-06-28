@@ -5,7 +5,7 @@ At the moment, *rssitter* i **serverless** but I'm working on a *node.js* implem
 
 ## Use it with 5 simple steps.
 1. Download or clone this repo.
-2. Open `fetch.js` with your favourite editor.
+2. Open `js/fetch.js` with your favourite editor.
 3. Enter your favourite rss feeds to the `rss_list` variable.
 4. Open `index.html` with your browser.
 5. Enjoy
