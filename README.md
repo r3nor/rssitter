@@ -23,7 +23,7 @@ I will be using Flask for the server. It is lightweight and I'm able to use Pyth
     - `source envName/bin/activate`
   > Now you are inside of the virtual environment for python.
 3. [env] Install the dependencies:
-    - `pip3 install flask flask-sqlalchemy feedparser`
+    - `pip3 install flask flask-sqlalchemy feedparser Flask-User`
 4. [env] Setup the SqlLite database:
     - `python3` (Enter to the python command promt.)
     - \>>`from app import db` (You will see a warning, don't worry)
