@@ -3,7 +3,7 @@
 
 Rssitter allows you to follow your favourite twitters without Twitter even knowing it. Rssitter uses [Nitter's](nitter.net) rss feed in order to gather the latest tweets from your favourite accounts and builds a *twitter-like* feed so you can read them. We will never connect you to Twitter so your privacy is safe using Rssitter.
 
-At the moment, *rssitter* i **serverless** but I'm working on a *node.js* implementation so you can follow your accounts and have a user. At the moment the best way to use it is to download the two files and use it locally.
+At the moment, *rssitter* is **serverless** but I'm working on a *flask* implementation so you can follow your accounts and have a user. At the moment the best way to use it is to download the two files and use it locally.
 
 ## Use it with 5 simple steps.
 1. Download or clone this repo.
@@ -26,4 +26,4 @@ I will be using Flask for the server. It is lightweight and I'm able to use Pyth
     - `pip install --upgrade pip`
 4. [env] Install the dependencies:
     - `pip3 install flask flask-sqlalchemy flask-migrate python-dotenv flask-wtf flask-login email-validator`
-4. [env] Run the app:
+5. ....
