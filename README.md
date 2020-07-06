@@ -19,10 +19,11 @@ I will be using Flask for the server. It is lightweight and I'm able to use Pyth
 ### Self hosting
 1. Install `python3`, `pip` and `virtualenv`.
 2. Prepare a virtual environment:
-    - `virtualenv envName`
-    - `source envName/bin/activate`
+    - `python3 -m venv venv`
+    - `source venv/bin/activate`
   > Now you are inside of the virtual environment for python.
-3. [env] Install the dependencies:
-    - `pip3 install flask flask-sqlalchemy feedparser Flask-User email_validator`
-4. [env] Start the app:
-    - `python3 app.py`
+3. [env] Update pip
+    - `pip install --upgrade pip`
+4. [env] Install the dependencies:
+    - `pip3 install flask flask-sqlalchemy flask-migrate python-dotenv flask-wtf flask-login email-validator`
+4. [env] Run the app:
