@@ -1,4 +1,4 @@
-# rssitter
+# Parasitter
 > Twitter via RSS with privacy
 
 Rssitter allows you to follow your favourite twitters without Twitter even knowing it. Rssitter uses [Nitter's](nitter.net) rss feed in order to gather the latest tweets from your favourite accounts and builds a *twitter-like* feed so you can read them. We will never connect you to Twitter so your privacy is safe using Rssitter.
@@ -25,5 +25,10 @@ I will be using Flask for the server. It is lightweight and I'm able to use Pyth
 3. [env] Update pip
     - `pip install --upgrade pip`
 4. [env] Install the dependencies:
-    - `pip3 install flask flask-sqlalchemy flask-migrate python-dotenv flask-wtf flask-login email-validator`
+    - `pip3 install flask flask-sqlalchemy flask-migrate python-dotenv flask-wtf flask-login email-validator feedparser`
+    > It may require you to use *sudo*
+5. [env] Initialize and prepare the database.
+    - `flask db init`
+    - `flask db migrate`
+    - `flask db upgrade`
 5. ....
