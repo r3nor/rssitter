@@ -31,4 +31,6 @@ I will be using Flask for the server. It is lightweight and I'm able to use Pyth
     - `flask db init`
     - `flask db migrate`
     - `flask db upgrade`
-5. ....
+6. [env] Run the application.
+    - `flask run`
+7. Go to "http://localhost:5000/" and enjoy.
