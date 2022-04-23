@@ -1,4 +1,4 @@
-# Parasitter
+# RSSITTER
 > Twitter via RSS with privacy
 
 Rssitter allows you to follow your favourite twitters without Twitter even knowing it. Rssitter uses [Nitter's](nitter.net) rss feed in order to gather the latest tweets from your favourite accounts and builds a *twitter-like* feed so you can read them. We will never connect you to Twitter so your privacy is safe using Rssitter.
